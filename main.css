@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(136, 134, 134);
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+}
+input {
+    height: 35px;
+    
+}
+button{
+    height: 40px;
+    font-weight: bolder;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 3px 20px;
+    border-radius: 20%;
+}
