@@ -59,13 +59,13 @@ button.addEventListener('click', ()=>{
             situ.innerHTML += ' and Normal 🌤️';
         }
         else if (Number(data.main.humidity) >=60 && Number(data.main.humidity) < 80) {
-            situ.innerHTML += ' and Humid 🌧️';
+            situ.innerHTML += ' and Humid 💧';
         }
         else if (Number(data.main.humidity) >=80 && Number(data.main.humidity) <= 92) {
-            situ.innerHTML += ' and Very Humid 🌊';
+            situ.innerHTML += ' and Very Humid 💦';
         }
-        else  {
-            situ.innerHTML += '//  Rain is very likely 🌧️';
+        else if(Number(data.main.humidity) > 92) {
+            situ.innerHTML += '  Rain is very likely 🌧️';
         } 
     })
     .catch(error => { display.innerHTML = `City not found, please try again...`;
