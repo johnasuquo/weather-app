@@ -1,18 +1,31 @@
 body{
-    background-color: rgb(136, 134, 134);
+    background-color: lightgrey;
     font-weight: 900;
     font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    padding: 20px 50px;
+    margin-top: 100px;
+    font-size: 1rem;
+
 }
 input {
     height: 35px;
+    border: none;
+    padding: 5px 10px;
+    font-weight: bolder;
+    font-size: 15px;
+    margin-top: 10px;
+    outline: none;
     
 }
 button{
-    height: 40px;
+
+    height: 45px;
     font-weight: bolder;
     background-color: green;
     color: white;
     border: none;
     padding: 3px 20px;
-    border-radius: 20%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1rem;
 }
