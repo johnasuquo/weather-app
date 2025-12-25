@@ -18,9 +18,9 @@ button.addEventListener('click', ()=>{
         display.innerHTML = `
         <div>
         <h2> City/Town: ${input} </h2>
-        <p>Temperature:  ${data.main.temp}</p>
-        <p> Feels like:  ${data.main.feels_like} </p>
-        <p> Humidity:  ${data.main.humidity} </p>
+        <p>Temperature:  ${data.main.temp}℃</p>
+        <p> Feels like:  ${data.main.feels_like}℃</p>
+        <p> Humidity:  ${data.main.humidity}%</p>
         <p>Weather:  ${data.weather[0].description}</p>
         </div>`;
 
